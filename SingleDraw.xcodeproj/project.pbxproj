@@ -15,6 +15,8 @@
 		68175FA41CACC6A10005B3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68175FA21CACC6A10005B3EC /* LaunchScreen.storyboard */; };
 		68175FAF1CACC6A10005B3EC /* SingleDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68175FAE1CACC6A10005B3EC /* SingleDrawTests.m */; };
 		68175FBA1CACC6A10005B3EC /* SingleDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68175FB91CACC6A10005B3EC /* SingleDrawUITests.m */; };
+		68175FCA1CACC99F0005B3EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68175FC91CACC99E0005B3EC /* QuartzCore.framework */; };
+		68175FCD1CACCE6C0005B3EC /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68175FCC1CACCE6C0005B3EC /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		68175FB51CACC6A10005B3EC /* SingleDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68175FB91CACC6A10005B3EC /* SingleDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleDrawUITests.m; sourceTree = "<group>"; };
 		68175FBB1CACC6A10005B3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68175FC91CACC99E0005B3EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		68175FCB1CACCE6C0005B3EC /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		68175FCC1CACCE6C0005B3EC /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68175FCA1CACC99F0005B3EC /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		68175F881CACC6A00005B3EC = {
 			isa = PBXGroup;
 			children = (
+				68175FC91CACC99E0005B3EC /* QuartzCore.framework */,
 				68175F931CACC6A00005B3EC /* SingleDraw */,
 				68175FAD1CACC6A10005B3EC /* SingleDrawTests */,
 				68175FB81CACC6A10005B3EC /* SingleDrawUITests */,
@@ -105,6 +112,8 @@
 				68175F981CACC6A00005B3EC /* AppDelegate.m */,
 				68175F9A1CACC6A00005B3EC /* ViewController.h */,
 				68175F9B1CACC6A00005B3EC /* ViewController.m */,
+				68175FCB1CACCE6C0005B3EC /* DrawView.h */,
+				68175FCC1CACCE6C0005B3EC /* DrawView.m */,
 				68175F9D1CACC6A10005B3EC /* Main.storyboard */,
 				68175FA01CACC6A10005B3EC /* Assets.xcassets */,
 				68175FA21CACC6A10005B3EC /* LaunchScreen.storyboard */,
@@ -272,6 +281,7 @@
 			files = (
 				68175F9C1CACC6A00005B3EC /* ViewController.m in Sources */,
 				68175F991CACC6A00005B3EC /* AppDelegate.m in Sources */,
+				68175FCD1CACCE6C0005B3EC /* DrawView.m in Sources */,
 				68175F961CACC6A00005B3EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
